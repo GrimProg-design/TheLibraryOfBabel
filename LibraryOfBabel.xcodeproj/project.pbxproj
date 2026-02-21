@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E74974202F49795000712DB9 /* LibraryOfBabel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LibraryOfBabel;
-			sourceTree = "<group>";
-		};
 		E749742E2F49795200712DB9 /* LibraryOfBabelTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LibraryOfBabelTests;
@@ -43,6 +38,11 @@
 		E74974382F49795200712DB9 /* LibraryOfBabelUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LibraryOfBabelUITests;
+			sourceTree = "<group>";
+		};
+		E74974532F497B2900712DB9 /* LibraryOfBabel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LibraryOfBabel;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		E74974152F49795000712DB9 = {
 			isa = PBXGroup;
 			children = (
-				E74974202F49795000712DB9 /* LibraryOfBabel */,
+				E74974532F497B2900712DB9 /* LibraryOfBabel */,
 				E749742E2F49795200712DB9 /* LibraryOfBabelTests */,
 				E74974382F49795200712DB9 /* LibraryOfBabelUITests */,
 				E749741F2F49795000712DB9 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E74974202F49795000712DB9 /* LibraryOfBabel */,
+				E74974532F497B2900712DB9 /* LibraryOfBabel */,
 			);
 			name = LibraryOfBabel;
 			packageProductDependencies = (
