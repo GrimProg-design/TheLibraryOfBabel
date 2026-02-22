@@ -26,7 +26,7 @@ struct LibraryView: View {
                     .ignoresSafeArea()
                 
                 VStack(spacing: 30) {
-                    headerSection
+                    HeaderView(title: "Вавилонская библиотека")
                     
                     VStack(spacing: 20) {
                         customTextField(title: "НОМЕР ГЕКСАГОНА", text: $room, icon: "cube.transparent")
@@ -60,13 +60,6 @@ struct LibraryView: View {
                 BookDetailView(room: room, wall: wall, shelf: shelf, book: book, engine: engineWrapper.engine)
             }
         }
-    }
-    
-    var headerSection: some View {
-        VStack(spacing: 8) {
-            Text("АРХИВ ВАВИЛОНА").font(.system(size: 28, weight: .thin, design: .serif)).tracking(5).foregroundColor(.gold)
-            Rectangle().frame(height: 1).foregroundColor(.gold.opacity(0.3)).padding(.horizontal, 40)
-        }.padding(.top, 40)
     }
     
     @ViewBuilder

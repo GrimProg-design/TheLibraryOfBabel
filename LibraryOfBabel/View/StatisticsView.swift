@@ -9,7 +9,11 @@ import SwiftUI
 
 struct StatisticsView: View {
     var body: some View {
-        LinearGradient(gradient: Gradient(colors: [Color(hex: "1a1a2e"), Color(hex: "16213e")]), startPoint: .top, endPoint: .bottom)
-            .ignoresSafeArea()
+        VStack {
+            LinearGradient(gradient: Gradient(colors: [Color(hex: "1a1a2e"), Color(hex: "16213e")]), startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea()
+         
+            HeaderView(title: "Исследование библиотеки")
+        }
     }
 }
