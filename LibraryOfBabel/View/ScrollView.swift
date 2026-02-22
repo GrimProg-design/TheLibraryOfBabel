@@ -7,12 +7,11 @@
 
 import SwiftUI
 
-struct ScrollView: View {
+struct GirozontalScrollView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal) {
+            HStack {
+            }
+        }
     }
-}
-
-#Preview {
-    ScrollView()
 }

@@ -11,11 +11,15 @@ struct ContentView: View {
     var body: some View {
         TabView {
             Tab("Library", systemImage: "building.columns") {
-                
+                LibraryView()
             }
             
             Tab("Map", systemImage: "map") {
                 
+            }
+            
+            Tab("Statistics", systemImage: "chart.bar.xaxis") {
+                StatisticsView()
             }
         }
     }

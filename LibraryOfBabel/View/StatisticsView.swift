@@ -9,10 +9,7 @@ import SwiftUI
 
 struct StatisticsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        LinearGradient(gradient: Gradient(colors: [Color(hex: "1a1a2e"), Color(hex: "16213e")]), startPoint: .top, endPoint: .bottom)
+            .ignoresSafeArea()
     }
-}
-
-#Preview {
-    StatisticsView()
 }
